@@ -1,0 +1,6 @@
+framework module MGImageExtension {
+  umbrella header "MGImageExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MGImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - MGImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  MGImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGImageExtension: 3bc04a085a323a66a3b4bd5bea86f2a58cc62d5a
+
+PODFILE CHECKSUM: 19590a33a7db72c9c47a348e8f400f9a40b0b55c
+
+COCOAPODS: 1.5.2
