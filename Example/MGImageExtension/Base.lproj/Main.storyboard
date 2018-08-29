@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="67t-vn-OC3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,20 +10,36 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="Cgb-zd-nYU">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MGImageExtension_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="67t-vn-OC3" customClass="ViewController" customModule="SKImageExtension_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="wIl-bB-vVs"/>
+                        <viewControllerLayoutGuide type="bottom" id="IdW-ju-wpD"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="5Fv-OV-sQL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mp7-Xf-Coz">
+                                <rect key="frame" x="112" y="28" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Bt9-Oz-S0e"/>
+                                    <constraint firstAttribute="width" constant="150" id="g1b-Xn-IDW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21152741489999999" green="0.72693504450000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="mp7-Xf-Coz" firstAttribute="top" secondItem="wIl-bB-vVs" secondAttribute="bottom" constant="8" symbolic="YES" id="JDN-mz-7dE"/>
+                            <constraint firstItem="mp7-Xf-Coz" firstAttribute="centerX" secondItem="5Fv-OV-sQL" secondAttribute="centerX" id="khl-U3-0EX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="testImageView" destination="mp7-Xf-Coz" id="oyZ-Ui-YwW"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4H-J4-oO3" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
