@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGImageExtension'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SKImageExtension is a cocoapods that extends the UIImageView class'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ DESC
   s.homepage         = 'https://github.com/mgandhi28/MGImageExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '14ce030@charusat.edu.in' => 'monil.gandhi@volansystech.com' }
+  s.author           = { 'Monil Gandhi' => 'monil.gandhi@volansystech.com' }
   s.source           = { :git => 'https://github.com/mgandhi28/MGImageExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
