@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="Cgb-zd-nYU">
             <objects>
-                <viewController id="67t-vn-OC3" customClass="ViewController" customModule="SKImageExtension_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="67t-vn-OC3" customClass="ViewController" customModule="MGImageExtension_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wIl-bB-vVs"/>
                         <viewControllerLayoutGuide type="bottom" id="IdW-ju-wpD"/>
@@ -29,7 +29,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.21152741489999999" green="0.72693504450000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="mp7-Xf-Coz" firstAttribute="top" secondItem="wIl-bB-vVs" secondAttribute="bottom" constant="8" symbolic="YES" id="JDN-mz-7dE"/>
                             <constraint firstItem="mp7-Xf-Coz" firstAttribute="centerX" secondItem="5Fv-OV-sQL" secondAttribute="centerX" id="khl-U3-0EX"/>
