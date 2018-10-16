@@ -1,6 +1,6 @@
 # MGImageExtension
 
-[![CI Status](https://img.shields.io/travis/mgandhi28/MGImageExtension.svg?style=flat)](https://travis-ci.org/14ce030@charusat.edu.in/MGImageExtension)
+[![CI Status](https://img.shields.io/travis/mgandhi28/MGImageExtension.svg?style=flat)](https://travis-ci.org/mgandhi28/MGImageExtension)
 [![Version](https://img.shields.io/cocoapods/v/MGImageExtension.svg?style=flat)](https://cocoapods.org/pods/MGImageExtension)
 [![License](https://img.shields.io/cocoapods/l/MGImageExtension.svg?style=flat)](https://cocoapods.org/pods/MGImageExtension)
 [![Platform](https://img.shields.io/cocoapods/p/MGImageExtension.svg?style=flat)](https://cocoapods.org/pods/MGImageExtension)
